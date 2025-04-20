@@ -20,6 +20,20 @@ This is a client-side single-page application (SPA) built with React, TypeScript
 - **Data Management** - CRUD operations for posts and comments
 - **Responsive Design** - Mobile-friendly UI with Tailwind CSS
 
+## Future Improvements
+
+Since it's a simple assignment, I've implemented some basic features. Here are some future improvements I would make in a real project:
+
+- Add unit and integration tests
+- Typescript path aliases for better code organization
+- Implement real authentication and keep user logged in
+- Add error boundaries for better error handling
+- Implement more realistic i18n support
+- Implement caching strategies for API calls
+- Add responsive design for mobile devices
+- Dockerize the production environment
+- Add UI kit components like buttons, inputs, etc.
+
 ## Folder Structure
 
 ```
@@ -195,20 +209,3 @@ The development container features:
 5. **Create Post**:
     - Form to create a new post
     - Redirects to Posts list on success
-
-## Future Improvements
-
-Since it's a simple assignment, I've implemented some basic features. Here are some future improvements I would make in a real project:
-
-- Add unit and integration tests
-- Typescript path aliases for better code organization
-- Implement real authentication and keep user logged in
-- Add error boundaries for better error handling
-- Implement more realistic i18n support
-- Implement caching strategies for API calls
-- Add responsive design for mobile devices
-- Dockerize the production environment
-
-## License
-
-MIT

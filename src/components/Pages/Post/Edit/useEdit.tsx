@@ -15,6 +15,7 @@ const useEdit = (post?: IPostItem) => {
 		mutationFn: (postData: { id: number; title: string; body: string }) =>
 			postService.updatePost(postData.id, postData),
 		onSuccess: () => {
+			alert('Post updated successfully');
 			nav.posts.go();
 		},
 		onError: () => {

@@ -23,6 +23,7 @@ const useCreatePost = (): UseCreatePostResult => {
 	const mutation = useMutation({
 		mutationFn: postService.createPost,
 		onSuccess: () => {
+			alert('Post created successfully');
 			nav.posts.go();
 		},
 		onError: () => {
